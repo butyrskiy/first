@@ -5,67 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IMG & Links</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <img src="avatar (1442x1920).jpg" alt="Моё личное фото" width="100">
-    <h1>Denis Butyrskiy</h1>
-    <p>Живу в городе <strong>Барнаул</strong>. Изучаю <em>программирование</em>.</p>
+    <div class="container">
+        <div class="info">
+            <img src="avatar.jpg" alt="Моё личное фото" width="150" class="avatar">
+                <div class="info-text">
+                    <h1>Leonardo DiCaprio</h1>
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, consectetur! Debitis laborum sit labore amet ipsum aperiam eligendi veniam aspernatur!
 
-    <p><strong>Цель</strong> - как можно скорее уехать за пределы РФ.</p>
-    
-    <H2>Мои хобби:</H2>
-    <ul>
-        <li>Кино</li>
-        <li>Музыка</li>
-        <li>программирование</li>
-    </ul>
-
-    <p><b>Список социальных сетей</b></p>
-    <a href="https://t.me/butyrskiy" target="_blank">Telegram</a> | 
-    <a href="https://t.me/butyrskiy" target="_blank">Instagram</a> | 
-    <a href="https://t.me/butyrskiy" target="_blank">YouTube</a>
-
-    <table>
-        <thead>
-            <th>Название</th>
-            <th>Должность</th>
-            <th>Год</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Интелика</td>
-                <td>Супервайзер</td>
-                <td>2011</td>
-            </tr>
-            <tr>
-                <td>Двор22</td>
-                <td>Менеджер</td>
-                <td>2012</td>
-            </tr>
-            <tr>
-                <td>АНИЦИТ</td>
-                <td>Менеджер</td>
-                <td>2013</td>
-            </tr>
-        </tbody>
-    </table>
-
-    <br>
-
-    <div>
-        <label for="name">Ваше имя</label>
-        <input type="text" id="name" placeholder="Введите имя">
+                    <p><strong>Lorew</strong> - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, corrupti?</p>
+                    
+                    <div class="social">
+                        <p><b>Social Network</b></p>
+                        <a class="btn" href="1" target="_blank">Telegram</a> | 
+                        <a class="btn" href="1" target="_blank">Instagram</a> | 
+                        <a class="btn" href="1" target="_blank">YouTube</a>
+                    </div>
+                </div>
+        </div>
+        
+        <div class="hobby">
+            <h2>Hobby:</h2>
+                <ul>
+                    <li>Football</li>
+                    <li>Music</li>
+                    <li>Movie</li>
+                </ul>
+        </div>
+        
+        <div class="work_experience">
+            <h2>Work Experience</h2>
+            <table class="table">
+                <thead>
+                    <th>Name Company</th>
+                    <th>Должность</th>
+                    <th>Year</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Microsoft</td>
+                        <td>Manager</td>
+                        <td>2011</td>
+                    </tr>
+                    <tr>
+                        <td>Apple</td>
+                        <td>CEO</td>
+                        <td>2012</td>
+                    </tr>
+                    <tr>
+                        <td>USA</td>
+                        <td>President</td>
+                        <td>2013</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
         <br>
 
-        <label for="email">Ваш email</label>
-        <input type="email" id="email" placeholder="Введите ваш email">
-        <br>
+        <div class="feedback">
+            <label for="name">Ваше имя</label>
+            <input type="text" id="name" placeholder="Введите имя">
+            <br>
 
-        <label for="text">Ваше сообщение:</label><br>
-        <textarea name="" id="" cols="30" rows="10">Введите ваше сообщение...</textarea>
-        <br>
+            <label for="email">Ваш email</label>
+            <input type="email" id="email" placeholder="Введите ваш email">
+            <br>
 
-        <button>Отправить<!DOCTYPE html></button>
+            <label for="text">Ваше сообщение:</label><br>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Введите ваше сообщение..."></textarea>
+            <br>
+            <button class="btn">Отправить!</button>
+        </div>
     </div>
 </body>
 </html>
